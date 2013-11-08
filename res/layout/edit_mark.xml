@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_margin="12dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/edit_mark_text"
+              android:text="@string/edit_mark"/>
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:maxLength="100"
+              android:maxLines="1"
+              android:hint="@string/reason_hint"
+              android:inputType="textCapSentences"
+              android:id="@+id/edit_reason"/>
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:maxLength="9"
+              android:maxLines="1"
+              android:hint="@string/mark_hint"
+              android:inputType="numberDecimal|numberSigned"
+              android:id="@+id/edit_mark"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:baselineAligned="false"
+                  android:orientation="horizontal">
+        <Button android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="remove"
+                android:text="@string/remove">
+        </Button>
+        <Button android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="editMark"
+                android:text="@string/save">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

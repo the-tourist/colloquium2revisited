@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ITMO Diary</string>
+    <string name="add_new_subject">Add a new subject</string>
+    <string name="add_new_mark">Add a new mark</string>
+    <string name="add_subject">Enter subject name:</string>
+    <string name="add_mark">Add a new mark for subject</string>
+    <string name="edit_mark">Edit this mark for subject</string>
+    <string name="edit_subject">Enter subject name:</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="subject_hint">Enter subject name here&#8230;</string>
+    <string name="reason_hint">Enter the reason for mark here&#8230;</string>
+    <string name="mark_hint">Enter your mark here&#8230;</string>
+</resources>
